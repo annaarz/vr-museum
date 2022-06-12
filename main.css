@@ -27,13 +27,14 @@ img {
     justify-content: space-between;
 }
 
-.header_logo {
+.header_logo a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 36px;
     width: 230px;
     height: 57px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .nav {
@@ -394,9 +395,6 @@ img {
     text-decoration: none;
 }
 
-.product img{
-    height: 300px;
-}
 
 .product_text {
     color: #FFFFFF;
@@ -590,22 +588,11 @@ img {
     }
 
 
-    .museums {
-        /* display: block; */
-    }
-
     .museums a {
         margin: 0 auto 40px auto;
     }
 
 
-    .first-row {
-        /* display: block; */
-    }
-
-    .second-row {
-        /* display: block; */
-    }
 
 }
 
