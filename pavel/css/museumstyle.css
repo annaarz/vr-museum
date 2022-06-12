@@ -1,7 +1,7 @@
 @font-face { 
     font-family: 'Moniqa';
-    src: url(fonts/Moniqa-BlackCondensedHeading.woff) format("woff"), 
-    url(fonts/Moniqa-BlackCondensedHeading.ttf) format("truetype");
+    src: url(../fonts/Moniqa-BlackCondensedHeading.woff) format("woff"), 
+    url(../fonts/Moniqa-BlackCondensedHeading.ttf) format("truetype");
     font-weight: 900;
     font-style: normal;
 }
@@ -33,7 +33,7 @@ body{
     justify-content: space-between;
 }
 
-.header_logo {
+.header_logo a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -250,12 +250,7 @@ main h2{
     width: 100%;
 }
 
-@media(max-width: 1760px){
-    .nav{
-        display: none;
-    }
 
-}
 
 @media(max-width: 1480px){
   .post-1{
@@ -266,7 +261,12 @@ main h2{
       width: 80%;
   }
 }
+@media(max-width: 900px){
+    .nav{
+        display: none;
+    }
 
+}
 
 @media(max-width: 722px){
     /* .bg-img h1{

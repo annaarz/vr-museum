@@ -27,12 +27,12 @@ body {
     justify-content: space-between;
 }
 
-.header_logo {
+.header_logo a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 36px;
 
-
+    text-decoration: none;
     width: 230px;
     height: 57px;
     color: #FFFFFF;
